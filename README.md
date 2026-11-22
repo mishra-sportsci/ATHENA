@@ -159,13 +159,13 @@ python3 seed_demo_data.py
 
 ---
 
-### Native Installation (Windows 10 / 11 — 100% Free of Cost)
+### Native Installation (Windows 10 / 11)
 
-ATHENA runs natively on Windows with **zero virtual machines, zero subscriptions, and zero license costs**.
+ATHENA runs natively on Windows with **zero virtual machine overhead and full hardware acceleration**.
 
-#### 1. Free Prerequisites
-* **Python 3.12+ (Free):** [python.org/downloads/windows](https://www.python.org/downloads/windows/) *(Check "Add python.exe to PATH")*
-* **R 4.4+ (Free):** [CRAN Windows Installer](https://cran.r-project.org/bin/windows/base/)
+#### 1. Prerequisites
+* **Python 3.12+:** [python.org/downloads/windows](https://www.python.org/downloads/windows/) *(Check "Add python.exe to PATH")*
+* **R 4.4+:** [CRAN Windows Installer](https://cran.r-project.org/bin/windows/base/)
 
 #### 2. Automated 1-Click Setup
 In Windows Explorer or Command Prompt:

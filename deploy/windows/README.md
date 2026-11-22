@@ -1,17 +1,17 @@
-# A.T.H.E.N.A. — Windows User Guide (100% Free of Cost)
+# A.T.H.E.N.A. — Windows Deployment & Operation Guide
 
-A.T.H.E.N.A. runs natively on **Windows 10 & Windows 11** with **zero commercial software, zero cloud subscriptions, and zero license costs**.
+A.T.H.E.N.A. runs natively on **Windows 10 & Windows 11** with full hardware acceleration and zero virtualization overhead.
 
 ---
 
-## 1. Free Software Requirements
+## 1. Prerequisites
 
-Both required runtimes are open-source and free for academic, personal, and professional use:
+Both required runtimes are standard open-source environments:
 
-1. **Python 3.12+ (Free, PSF License):**
+1. **Python 3.12+:**
    - Download: [python.org/downloads/windows](https://www.python.org/downloads/windows/)
-   - *Crucial Installation Step:* During installation, check the box: **"Add python.exe to PATH"**.
-2. **R 4.4+ (Free, GNU GPL License):**
+   - *Installation Step:* Ensure the box **"Add python.exe to PATH"** is checked.
+2. **R 4.4+:**
    - Download: [CRAN Windows Installer](https://cran.r-project.org/bin/windows/base/)
    - Run the standard installer using default settings.
 
@@ -79,4 +79,4 @@ If you prefer running ATHENA in a native Linux kernel on Windows:
    cd ATHENA
    ./run_shiny.sh
    ```
-*(Both native Windows and WSL2 approaches are 100% free of cost).*
+*(Both native Windows CMD/PowerShell and WSL2 workflows are supported).*

@@ -25,7 +25,7 @@ if %ERRORLEVEL% EQU 0 (
     if not defined RSCRIPT (
         echo [ERROR] R is not detected in your PATH or Program Files.
         echo ----------------------------------------------------------------------
-        echo To run ATHENA 100%% free of cost on Windows, install R:
+        echo To run ATHENA on Windows, install R:
         echo   https://cran.r-project.org/bin/windows/base/
         echo (Tip: During R installation, select "Add R to PATH")
         echo ----------------------------------------------------------------------

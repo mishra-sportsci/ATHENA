@@ -42,13 +42,13 @@ Once running:
 
 ---
 
-## 2. Automated Quickstart (Windows 10 / 11 — 100% Free)
+## 2. Automated Quickstart (Windows 10 / 11)
 
 No Linux virtual machine or WSL required. ATHENA runs natively in Windows CMD/PowerShell:
 
-### 1. Install Free Runtimes
-* [Python 3.12+ (Free)](https://www.python.org/downloads/windows/) — *Ensure "Add python.exe to PATH" is checked.*
-* [R 4.4+ (Free)](https://cran.r-project.org/bin/windows/base/) — *Standard installer.*
+### 1. Prerequisites
+* [Python 3.12+](https://www.python.org/downloads/windows/) — *Ensure "Add python.exe to PATH" is checked.*
+* [R 4.4+](https://cran.r-project.org/bin/windows/base/) — *Standard Windows installer.*
 
 ### 2. Automatic Dependency & Database Setup
 Open Command Prompt in the ATHENA directory and run:

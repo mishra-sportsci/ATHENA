@@ -3,7 +3,7 @@ setlocal enabledelayedexpansion
 title A.T.H.E.N.A. — Windows Automated Dependency & Environment Setup
 
 echo ======================================================================
-echo           A.T.H.E.N.A. — Windows Automated Setup (100%% Free)
+echo           A.T.H.E.N.A. — Windows Automated Environment Setup
 echo   Adaptive Telemetry, Health ^& Evidence-Based Nutrition Analytics
 echo ======================================================================
 echo.
@@ -16,7 +16,7 @@ echo [1/5] Checking Python 3.12+ installation...
 where python >nul 2>nul
 if %ERRORLEVEL% NEQ 0 (
     echo [ERROR] Python is not installed or not in your Windows PATH.
-    echo Please install Python free from: https://www.python.org/downloads/windows/
+    echo Please install Python 3.12+ from: https://www.python.org/downloads/windows/
     echo IMPORTANT: Make sure to check "Add python.exe to PATH" during installation.
     echo.
     pause
@@ -35,7 +35,7 @@ if %ERRORLEVEL% NEQ 0 (
     )
     if not defined RSCRIPT (
         echo [ERROR] R is not detected.
-        echo Please install R 4.4+ free from: https://cran.r-project.org/bin/windows/base/
+        echo Please install R 4.4+ from: https://cran.r-project.org/bin/windows/base/
         echo.
         pause
         exit /b 1
