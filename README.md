@@ -203,7 +203,6 @@ cp deploy/linux/*.desktop ~/.local/share/applications/
 * **[Disaster Recovery Runbook](docs/RECOVERY.md)**
 * **[Windows 10/11 Deployment Guide](deploy/windows/README.md)**
 * **[Linux Systemd & Desktop Integration](deploy/linux/README.md)**
-* **[Official 4K UHD Promotional Videos](media/videos/)** (16:9 Landscape, 9:16 Story, 1:1 Square)
 
 ---
 

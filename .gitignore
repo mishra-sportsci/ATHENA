@@ -74,6 +74,15 @@ htmlcov/
 Thumbs.db
 Desktop.ini
 
+# Video Media & Raw Render Frames (Host externally on YouTube/Vimeo/Releases)
+*.mp4
+*.webm
+*.avi
+*.mov
+media/videos/
+promo/frames/
+promo/frames_*/
+
 # Archives & Temporary Workspaces
 workspace-*
 *.tar
