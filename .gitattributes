@@ -1,0 +1,16 @@
+# ==============================================================================
+# GitHub Linguist Language Normalization
+# ==============================================================================
+
+*.html linguist-vendored
+*.html -linguist-detectable
+promo/** linguist-vendored
+promo/** -linguist-detectable
+static/** linguist-vendored
+static/** -linguist-detectable
+deploy/** linguist-vendored
+docs/** linguist-documentation
+media/** linguist-vendored
+tests/** linguist-vendored
+*.json -linguist-detectable
+*.md linguist-documentation

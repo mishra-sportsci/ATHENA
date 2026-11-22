@@ -1,0 +1,82 @@
+# ==============================================================================
+# A.T.H.E.N.A. — Production Git Exclusion Matrix (HIPAA / GDPR Sanitized)
+# ==============================================================================
+
+# Cryptographic Keys & Tokens (STRICT NEVER-COMMIT)
+.athena_api_key
+.athena_encryption_key
+.athena_passphrase
+*.key
+*.pem
+*.pub
+*.cert
+*.crt
+*.pfx
+*.p12
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+!.env.example
+
+# Databases & Clinical Datasets (Protected Health Information / PHI)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.before-shiny-backup
+backups/
+shards/
+exports/
+
+# Runtime Logs, PIDs & Hardware Telemetry
+*.log
+*.pid
+athena_app.log
+athena_backend.log
+/tmp/athena_*
+system_profile.json
+
+# Python Virtual Environments & Caches
+athena_env/
+athena_env.*/
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# R Caches & History
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj.user/
+
+# IDE & OS Noise
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Archives & Temporary Workspaces
+workspace-*
+*.tar
+*.tar.gz
+*.zip
+*.bak

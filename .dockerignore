@@ -1,0 +1,8 @@
+athena_env
+__pycache__
+*.pyc
+.git
+*.db-shm
+*.db-wal
+backups/*
+!backups/.gitkeep

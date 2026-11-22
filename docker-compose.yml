@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  athena:
+    build: .
+    ports:
+      - "8000:8000"
+      - "8001:8001"
+    volumes:
+      - ./athena.db:/app/athena.db
+      - ./backups:/app/backups
+      - ./.athena_encryption_key:/app/.athena_encryption_key
+    environment:
+      - ATHENA_ENCRYPTION_KEY=${ATHENA_ENCRYPTION_KEY:-}
+      - ATHENA_LOG_LEVEL=${ATHENA_LOG_LEVEL:-WARNING}
+      - ATHENA_CORS_ORIGINS=${ATHENA_CORS_ORIGINS:-http://localhost:8000}
+    restart: unless-stopped

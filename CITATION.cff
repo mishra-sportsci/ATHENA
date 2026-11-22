@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software in academic, clinical, or sports science research, please cite it as below."
+authors:
+  - family-names: "Mishra"
+    given-names: "Abhishek"
+    affiliation: "Department of Physical Education and Sports Sciences"
+title: "A.T.H.E.N.A.: Adaptive Telemetry, Health & Evidence-Based Nutrition Analytics"
+version: 1.0.0
+date-released: 2026-11-22
+url: "https://github.com/mishra-sportsci/ATHENA"
+keywords:
+  - "sports science"
+  - "exercise physiology"
+  - "clinical decision support system"
+  - "CDSS"
+  - "relative energy deficiency in sport"
+  - "REDs"
+  - "ACWR"
+  - "female athlete health"
+  - "telemetry analytics"
+  - "biomechanics"
+license: GPL-3.0

@@ -1,0 +1,10 @@
+user_id,date,gender,duration_minutes,rpe,sleep_hours,sleep_quality,stress,fatigue,muscle_soreness,exercise_type,mood,cycle_phase,calories,ffm
+ATH-001,2026-06-01,Male,60,5,7.5,5,3,2,2,run,neutral,,2500,65
+ATH-001,2026-06-02,Male,45,6,7.0,4,3,3,3,cycle,neutral,,2400,65
+ATH-001,2026-06-03,Male,90,7,8.0,5,2,3,4,swim,neutral,,2800,65
+ATH-002,2026-06-01,Female,55,4,6.5,4,4,3,2,run,neutral,follicular,2100,48
+ATH-002,2026-06-02,Female,60,5,7.0,5,3,2,2,sprint,neutral,follicular,2200,48
+ATH-002,2026-06-03,Female,40,3,6.0,3,5,4,3,row,neutral,luteal,1900,48
+ATH-003,2026-06-01,Male,75,8,8.5,6,2,2,3,run,neutral,,3200,72
+ATH-003,2026-06-02,Male,60,7,7.0,5,3,3,2,sprint,neutral,,3000,72
+ATH-003,2026-06-03,Male,90,9,8.0,6,2,4,4,cycle,neutral,,3500,72

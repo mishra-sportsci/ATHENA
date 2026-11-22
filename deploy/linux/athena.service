@@ -1,0 +1,14 @@
+[Unit]
+Description=ATHENA Sports Science & Athlete Monitoring Intelligence Service
+After=network.target
+
+[Service]
+Type=forking
+WorkingDirectory=%h/Projects/ATHENA
+ExecStart=/bin/bash %h/Projects/ATHENA/athena.sh
+ExecStop=/bin/bash %h/Projects/ATHENA/stop.sh
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

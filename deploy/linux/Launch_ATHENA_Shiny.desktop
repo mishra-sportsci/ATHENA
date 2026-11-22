@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Launch ATHENA (R Shiny Console)
+Comment=Start the Elite R Shiny Sports Science & Clinical Intelligence Workspace
+Exec=bash -c 'cd "$HOME/Projects/ATHENA" 2>/dev/null || cd "$HOME/Projects/MissionATHENA" 2>/dev/null; ./run_shiny.sh'
+Icon=utilities-system-monitor
+Terminal=false
+Categories=Science;Medical;Development;

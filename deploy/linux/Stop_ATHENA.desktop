@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Stop ATHENA
+Comment=Immediately stop all ATHENA services and release resources
+Exec=bash -c 'cd "$HOME/Projects/ATHENA" 2>/dev/null || cd "$HOME/Projects/MissionATHENA" 2>/dev/null; ./stop.sh'
+Icon=process-stop
+Terminal=true
+Categories=Science;Medical;Development;
